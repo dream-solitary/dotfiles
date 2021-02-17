@@ -1,0 +1,25 @@
+font:
+  normal:
+    family: SourceCodePro
+    style: Mono
+
+  bold:
+    family: SourceCodePro
+    style: Bold
+
+  italic:
+    family: SourceCodePro
+    style: Italic
+  
+  bold_italic:
+    family: SourceCodePro
+    style: Bold Italic
+
+  size: 11
+key_bindings:
+  - { key: Return,   mods: Control, action: SpawnNewInstance  }
+
+#colors:
+#  primary:
+#    background: '#3d3f41'
+#    foreground: '#d2d8d9'
