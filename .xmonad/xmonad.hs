@@ -141,7 +141,7 @@ myKeys home = [
          , ("<Print>", spawn("scrot 'screenshot_%Y-%m-%d-%H$%M%S_$wx$h.png' -e 'mv $f ~/image/shots/'"))
          -- XMonad
          , ("M-r", spawn "xmonad --recompile; xmonad --restart")   -- Restarts xmonad
-         , ("M-<Escape>", io exitSuccess)                               -- Quits xmonad
+         , ("M-S-<Escape>", io exitSuccess)                               -- Quits xmonad
          -- Increase/decrease windows in the master pane or the stack
          , ("M-S-<Up>", sendMessage (IncMasterN 1))      -- Increase number of clients in master pane
          , ("M-S-<Down>", sendMessage (IncMasterN (-1))) -- Decrease number of clients in master pane

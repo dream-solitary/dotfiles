@@ -40,6 +40,6 @@ export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 
-xcompmgr -c &                    # enable window transparency
+xcompmgr &                       # enable window transparency
 xsetroot -cursor_name left_ptr   # set crusor style to arrow
 exec xmonad                      # start window manager
